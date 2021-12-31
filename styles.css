@@ -1,6 +1,13 @@
+.main-header{
+    background-image: url("images/extra_images/Header\ Background.jpg");
+    background-size: cover;
+}
+
+
 .first_pic {
     display: block;
     width:35%;
     margin-left:auto;
     margin-right:auto;
 }
+
