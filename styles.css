@@ -1,13 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+       font-family: "Booter - Zero Zero";
+       src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+           url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+   }
+      
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body{
+    margin:0;
+    padding: 0;
+
+}
+
+.nav ul{
+    margin:0
+}
+ /*========= made li/a elements line side by side ============*/
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration:none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+    
+}
+
+.main-nav li{
+padding: 0 5%;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 3px solid rgba(255, 255, 255, .3);
+ 
+}
 .main-header{
+    background-color: rgba(0,0,0 .6);
     background-image: url("images/extra_images/Header\ Background.jpg");
     background-size: cover;
+    background-blend-mode: multiply;
+padding-bottom: 30px;
+color: seashell;
+
+}
+
+.band-name{
+    text-align: center;
+    margin:0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+
+.band-name-large{
+    font-size: 8em;
+}
+/* header / nav things end ==========================*/
+
+
+.content-section{
+margin:2em;
+}
+
+.container{
+    max-width: 1000px; /* stop growing*/
+    margin:  auto;
+    padding:0 1.5em;
+   
+}
+
+.section-header{
+font-family: "Metal Mania";
+font-weight: normal;
+font-size: 2.5em;
+color:#333;
+text-align: center;
+}
+
+.about-band-image{
+float: left;
+height: 300px;
+width: 300px;
+margin:15px;
+border-radius: 10%;
 }
 
 
-.first_pic {
-    display: block;
-    width:35%;
-    margin-left:auto;
-    margin-right:auto;
+/*======= end of body ============== */
+
+
+.main-footer{
+    background-color:#56CCF2;
+    color: white;
+    padding: .25em 0;
+     text-align: center;
+     font-size: 1.1em;
+     font-weight: lighter;
+      margin-top: 5px;
+   
+ 
 }
 
+.main-footer li{
+  display: inline-block;
+  padding: .2em .5em ;
+  color: white;
+  text-decoration:none; 
+ 
+}
